@@ -1,0 +1,177 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;	
+	background: #f6f6f6;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+
+/* * ============================== */
+/* * ============ HEADER ========== */
+/* * ============================== */
+
+.navbar {
+	background: #FFCD48;
+	position: sticky;
+	top: 0;
+}
+
+.navbar img {
+	width: 70px;
+	height: 70px;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+.navbar a {
+	color: #fff;
+	display: inline-block;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	transition: .3s ease-out all;
+}
+
+.navbar a:hover {
+	background: #1D2F3D;
+	color: #fff;
+	text-decoration: none;
+}
+
+.contenedor {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	cursor: pointer;
+}
+
+
+/* * ============================== */
+/* * ===== CONTENEDOR IMAGEN ====== */
+/* * ============================== */
+
+.contenedor-imagen {
+	height: 100vh;
+}
+
+.img-header {
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+	object-fit: cover;
+	object-position: 0 bottom;
+}
+
+/* * ============================== */
+/* * ============ MAIN ============ */
+/* * ============================== */
+
+main {
+	min-height: 100vh;
+}
+
+main .contenido p {
+	margin-bottom: 20px;
+	line-height: 30px;
+	color: #525151;
+}
+
+.titulo {
+	color: #FFCD48;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	margin: 40px;
+	padding: 8px;
+	background-color: #1D2F3D;
+	transition: .7s ease-in-out all ;
+	border-radius: 35px;
+}
+
+.titulo:hover {
+	color: #1D2F3D;
+	background-color: #FFCD48;
+}
+
+.media {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(450px, 1fr));
+}
+
+.media-img {
+	width: 100%;
+	height: 100%;
+	padding: 15px;
+}
+
+.media-vid {
+	width: 200%;
+	height: 100%;
+	padding: 15px;
+}
+
+
+/* * ============================== */
+/* * ========== FOOTER ============ */
+/* * ============================== */
+
+footer .navbar{
+	position: sticky;
+	bottom: 0;
+}
+
+.img-footer {
+	width: 100%;
+	height: 100%;
+	vertical-align: bottom;
+	object-fit: scale-down;
+	object-position: center;
+	padding-left: 30px;
+}
+
+/* * ============================== */
+/* * ====== MEDIA QUERIES ========= */
+/* * ============================== */
+@media screen and (max-width: 900px){
+	.navbar .contenedor {
+		flex-wrap: wrap;
+		margin: 0;
+		width: 100%;
+	}
+
+	.navbar a {
+		width: auto;
+		flex: 1;
+	}
+
+	.contenedor-imagen {
+		height: 50vh;
+	}
+
+	main .contenedor {
+		flex-direction: column;
+	}
+}
