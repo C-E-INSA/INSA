@@ -19,7 +19,8 @@ a:hover {
 
 body {
     font-family: 'Noto Sans JP', sans-serif;	
-	background: #f2f2f2;
+	/* background: #f2f2f2; */
+	background: #333;
 }
 
 /* * ============================== */
