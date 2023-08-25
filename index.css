@@ -11,6 +11,7 @@ html {
 a {
 	text-decoration: none;
 	outline: none;
+	color: #f99;
 }
 
 a:hover {
