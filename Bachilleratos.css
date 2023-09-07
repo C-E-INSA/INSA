@@ -204,7 +204,7 @@ footer .navbar{
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
-/* @media screen and (max-width: 900px){
+@media screen and (max-width: 900px){
 	.navbar .contenedor {
 		flex-wrap: wrap;
 		margin: 0;
@@ -223,37 +223,4 @@ footer .navbar{
 	main .contenedor {
 		flex-direction: column;
 	}
-} */
-
-@media (max-width: 768px) {
-	/* Estilos para dispositivos móviles */
-  
-	.navbar {
-	  width: 100%;
-	  font-size: 14px;
-	}
-  
-	.imagen {
-	  width: 50%;
-	}
-  
-	.texto {
-	  font-size: 14px;
-	}
-  
-	.bachilleratos {
-	  display: none;
-	}
-  
-	.bachilleratos ul {
-	  display: flex;
-	  flex-wrap: wrap;
-	  margin: 0;
-	  padding: 0;
-	}
-  
-	.bachilleratos li {
-	  width: 25%;
-	  margin: 0 0 10px 0;
-	}
-  }
+}
