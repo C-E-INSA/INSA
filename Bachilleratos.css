@@ -164,7 +164,13 @@ footer .navbar{
 	width: 90%;
 	margin: auto;
 	display: grid;
+	grid-column: auto;
 	justify-content: space-between;
+}
+
+.div-vid {
+	margin: 30px;
+	width: 45%;
 }
 
 .img {
