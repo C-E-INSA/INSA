@@ -176,6 +176,15 @@ footer .navbar{
 	justify-content: space-between;
 }
 
+.img {
+	margin: 30px;
+	width: 270px;
+}
+
+/* .div-img {
+	
+} */
+
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
