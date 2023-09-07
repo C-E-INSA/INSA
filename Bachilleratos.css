@@ -93,22 +93,12 @@ main {
 	min-height: 100vh;
 }
 
-main .contenido p {
-	margin-bottom: 20px;
-	line-height: 30px;
-	color: #525151;
-}
-
 main .contenido .titulo {
     font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	padding-top: 40px;
 }
 
-main .contenido .fecha {
-	font-size: 14px;
-	color: #B5B5B5;
-}
 
 /* * ============================== */
 /* * ============ ASIDE =========== */
