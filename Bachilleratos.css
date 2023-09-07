@@ -157,6 +157,13 @@ footer .navbar{
 	padding-left: 30px;
 }
 
+.bachillerato {
+	color: #fff;
+	background-color: #1D2F3D;
+	margin: 10px;
+	padding: 25px;
+}
+
 .multimedia {
 	max-width: 1000px;
 	width: 90%;
