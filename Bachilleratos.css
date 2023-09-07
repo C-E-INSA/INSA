@@ -148,12 +148,15 @@ footer .navbar{
 	padding-left: 30px;
 }
 
+.titulo {
+	text-align: center;
+}
+
 .bachillerato {
 	color: #fff;
 	background-color: #1D2F3D;
 	margin: 30px;
 	padding: 25px;
-	text-align: center;
 }
 
 .bac-p {
