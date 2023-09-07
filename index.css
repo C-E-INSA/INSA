@@ -28,7 +28,8 @@ body {
 /* * ============================== */
 
 .navbar {
-	background: #FFCD48;
+	/* background: #FFCD48; */
+	background: #88D;
 	position: sticky;
 	top: 0;
 }
@@ -47,7 +48,7 @@ body {
 	padding: 20px;
 	width: 100%;
 	text-align: center;
-	color: #000;
+	/* color: #000; */
 	transition: .3s ease-out all;
 }
 
