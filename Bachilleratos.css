@@ -196,11 +196,14 @@ footer .navbar{
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
-@media screen and (max-width: 900px){
+@media screen and (max-width: 1000px){
+	*{
+		width: 50%;
+	}
 	.navbar .contenedor {
 		flex-wrap: wrap;
 		margin: 0;
-		width: 75%;
+		width: 25%;
 	}
 
 	.navbar a {
