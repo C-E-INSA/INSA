@@ -239,4 +239,20 @@ footer .navbar{
 	.texto {
 	  font-size: 14px;
 	}
+  
+	.bachilleratos {
+	  display: none;
+	}
+  
+	.bachilleratos ul {
+	  display: flex;
+	  flex-wrap: wrap;
+	  margin: 0;
+	  padding: 0;
+	}
+  
+	.bachilleratos li {
+	  width: 50%;
+	  margin: 0 0 10px 0;
+	}
   }
