@@ -169,10 +169,10 @@ footer .navbar{
 }
 
 .multimedia {
-	max-width: 1000px;
+	max-width: 1fr;
 	width: 90%;
 	margin: auto;
-	display: flex;
+	display: grid;
 	justify-content: space-between;
 }
 
