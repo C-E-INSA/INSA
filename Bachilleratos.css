@@ -157,6 +157,14 @@ footer .navbar{
 	padding-left: 30px;
 }
 
+.multimedia {
+	max-width: 1000px;
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
 /* * ============================== */
 /* * ====== MEDIA QUERIES ========= */
 /* * ============================== */
