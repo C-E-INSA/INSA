@@ -29,7 +29,7 @@ body {
 
 .navbar {
 	/* background: #FFCD48; */
-	background: #88D;
+	background: rgb(117, 117, 231);
 	position: sticky;
 	top: 0;
 }
