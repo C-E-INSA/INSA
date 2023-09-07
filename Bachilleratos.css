@@ -170,7 +170,7 @@ footer .navbar{
 
 .div-vid {
 	margin: 30px;
-	width: 45%;
+	max-width: 1fr;
 }
 
 .img {
