@@ -80,11 +80,11 @@ body {
 }
 
 .img-header {
-	width: 70%;
+	width: 600px;
 	height: 100%;
 	vertical-align: top;
 	object-fit: cover;
-	object-position: 0 bottom;
+	object-position: 0 center;
 }
 
 /* * ============================== */
